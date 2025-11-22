@@ -209,4 +209,168 @@ Uses arrays of structures to store up to 100 employees.
 
 Ensures organized and structured management of employee records
 
+
+******HOW TO RUN CODE******
+
+ Option 1: Run Using an Online C Compiler
+
+This is the easiest method.
+
+1. Go to any online compiler:
+
+Replit
+
+OnlineGDB
+
+Programiz C Compiler
+
+
+
+2. Copy the entire C code.
+
+
+3. Paste it into the editor.
+
+
+4. Click Run.
+
+
+5. The menu will appear in the output window.
+
+
+
+ Option 2: Run on Windows Using GCC (CodeBlocks / MinGW)
+
+Method A: Using CodeBlocks
+
+1. Install CodeBlocks with GCC compiler (if not installed).
+
+
+2. Open CodeBlocks → Create New Project → Console Application → C.
+
+
+3. Replace the default code with your project code.
+
+
+4. Press Build & Run (F9).
+
+
+5. The program will open in a console window.
+
+
+
+
+Method B: Using GCC (MinGW Terminal)
+
+1. Install MinGW (adds gcc to your system).
+
+
+2. Save your program as  employee_management.c
+
+
+3. Open Command Prompt in the folder where the file is saved.
+
+
+4. Compile the program using:
+
+gcc employee_management.c -o employee
+
+
+5. Run the compiled program:
+
+employee
+
+
+6. The menu will appear, and you can start using the system.
+
+
+
+ Option 3: Run on Linux (Ubuntu / Kali / Mint)
+
+1. Save the file as employee_management.c.
+
+
+2. Open Terminal in that folder.
+
+
+3. Compile using:
+
+gcc employee_management.c -o employee
+
+
+4. Run the program:
+
+./employee
+
+
+
+ Option 4: Run on Android (Termux)
+
+1. Install Termux from Play Store.
+
+
+2. Run:
+
+pkg install clang
+
+
+3. Create a file:
+
+nano employee.c
+
+
+4. Paste your code → Save (CTRL + O) → Exit (CTRL + X)
+
+
+5. Compile:
+
+clang employee.c -o employee
+
+
+6. Run:
+
+./employee
+
 *******SCREENSHORTS*******
+
+**1)MAIN MENU**
+
+
+<p align="center">
+  <img src="https://github.com/madhurya7569-rgb/course_project_/blob/e275df2ca27f15a3c1dfc7e4a041f7cf97ab5584/SC1.jpeg" width="500">
+</p>
+
+**2)ADDING AN EMPLOYEE**
+
+
+<p align="center">
+  <img src="https://github.com/madhurya7569-rgb/course_project_/blob/e275df2ca27f15a3c1dfc7e4a041f7cf97ab5584/SC2.jpeg" width="500">
+</p>
+
+**3)DISPLAYING ALL EMPLOYEES**
+
+
+<p align="center">
+  <img src="https://github.com/madhurya7569-rgb/course_project_/blob/e275df2ca27f15a3c1dfc7e4a041f7cf97ab5584/SC3.jpeg" width="500">
+</p>
+
+**4) SEARCHING FOR EMPLOYEE**
+
+
+<p align="center">
+  <img src="https://github.com/madhurya7569-rgb/course_project_/blob/e275df2ca27f15a3c1dfc7e4a041f7cf97ab5584/SC4.jpeg" width="500">
+</p>
+
+**5) UPADATING EMPLOYEE**
+
+
+<p align="center">
+  <img src="https://github.com/madhurya7569-rgb/course_project_/blob/e275df2ca27f15a3c1dfc7e4a041f7cf97ab5584/SC4.jpeg" width="500">
+</p>
+
+**6) DELETING EMPLOYEE**
+
+
+<p align="center">
+  <img src="https://github.com/madhurya7569-rgb/course_project_/blob/e275df2ca27f15a3c1dfc7e4a041f7cf97ab5584/SC5.jpeg" width="500">
+</p>
